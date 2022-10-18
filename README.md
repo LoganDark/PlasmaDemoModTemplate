@@ -14,7 +14,7 @@ Visual Studio 2019 template for making Plasma Demo mods
   		<ModInfo>Info.json</ModInfo>
   		<GameExe>Plasma.exe</GameExe>
   		<EntryPoint>[UnityEngine.UI.dll]UnityEngine.EventSystems.EventSystem.cctor:After</EntryPoint>
-  		<StartingPoint>[Assembly-CSharp.dll]Visor.Visor.Awake:Before</StartingPoint>
+  		<StartingPoint>[Assembly-CSharp-firstpass.dll]ParadoxNotion.Services.MonoManager.Awake:Before</StartingPoint>
   		<UIStartingPoint>[Assembly-CSharp.dll]Visor.Visor.Awake:After</UIStartingPoint>
   		<GameVersionPoint>[Assembly-CSharp.dll]Plasma.localBuild</GameVersionPoint>
   		<Comment>created by Cit#7971 before release</Comment>
